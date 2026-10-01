@@ -1,0 +1,14 @@
+---
+description: Check Graphify before every implementation and refresh it after each implementation
+alwaysApply: true
+---
+
+# Graphify workflow
+
+- Before every implementation, inspect graph availability/freshness and query affected requirements, modules and relationships. Read the referenced source files to confirm graph findings.
+- Missing graph: apply the Graphify skill's full pipeline to the project before implementation. Stale graph: apply its incremental update first.
+- After every implementation, apply the Graphify skill's incremental pipeline to changed code, documents, migrations and configuration; refresh JSON, report and HTML, then verify a relevant query.
+- The CLI code-only update cannot substitute for semantic extraction when documents/plans changed. Follow `Agents/README.md`.
+- Exclude credentials, environment files, private keys, real user data, build artifacts and Graphify's own generated outputs from extraction.
+- Record before/after query and refresh evidence in `Agents/COMPLETION_LOG.md`; do not check off implementation while a required refresh is incomplete.
+- If Graphify cannot run, leave the task unchecked, explain the blocker and ask the user. Never fabricate graph evidence.

@@ -1,0 +1,17 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcresult
+.swiftpm/
+work/
+
+# Local authentication configuration and provider credentials
+.env
+.env.*
+!.env.example
+Config/*.local.xcconfig
+*.p8
+*.p12
+*.mobileprovision

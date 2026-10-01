@@ -1,0 +1,45 @@
+{
+  "source_directory": "/Users/senukadeneth/Local/local-projects/Endel Clone/Reference-Src",
+  "files": [
+    {
+      "filename": "Endel Controller.MP4",
+      "bytes": 14915430,
+      "sha256": "831fb61cccdb667957899c8d065db82cd88b8ed233c7278e2e3a0593de9ff137"
+    },
+    {
+      "filename": "Promadoro Timer 1.png",
+      "bytes": 3431192,
+      "sha256": "8f1e41ca67920748907318a9b3ecc7dda47b86cef1b4c7916f4903d8ec396f47"
+    },
+    {
+      "filename": "Promadoro Timer 2.png",
+      "bytes": 3041614,
+      "sha256": "374bd38d2be8e2b48271605361e52899e54dd2eb5b59f0d94df85122d9a12c22"
+    },
+    {
+      "filename": "Promadoro Timer 3.png",
+      "bytes": 3134358,
+      "sha256": "30bf48901e5d1e8f4d051201c5bf1e4aed38015363c56217ed7dfa61cfed0f4f"
+    },
+    {
+      "filename": "Promadoro Timer 4.png",
+      "bytes": 3028631,
+      "sha256": "c5646fc63fc909bb12ae82b5712075b8c2c710f5e0fd234c9369b93b5c147002"
+    },
+    {
+      "filename": "Promadoro Timer 5.png",
+      "bytes": 3106821,
+      "sha256": "5e0a8d1add03ed1e79267ef10ddaf45d2c722266e9343efe849815190ba21ea5"
+    }
+  ],
+  "review_date": "2026-10-01",
+  "cleanup_status": "moved_to_trash",
+  "cleanup": {
+    "destination": "/Users/senukadeneth/.Trash/Reference-Src",
+    "method": "FileManager.trashItem",
+    "recoverable": true,
+    "source": "/Users/senukadeneth/Local/local-projects/Endel Clone/Reference-Src",
+    "time_utc": "2026-10-01T06:08:08Z"
+  },
+  "review_method": "All five screenshots visually inspected; 25 frames spanning the 33.218-second video inspected; audio decoded and checked for nonzero samples, without a claimed listening comparison."
+}

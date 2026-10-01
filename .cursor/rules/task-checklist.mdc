@@ -1,0 +1,14 @@
+---
+description: Follow the complete FlowState checklist and record verified completion
+alwaysApply: true
+---
+
+# Checklist discipline
+
+- Read `AGENTS.md`, `Agents/TASKS.md`, `Agents/README.md` and relevant architecture decisions before work.
+- Follow the authoritative full checklist and dependencies; choose an unfinished item and preserve existing marks and implementation.
+- Complete the item's whole scope and acceptance gate with appropriate verification; partial scaffold work remains unchecked.
+- After the required Graphify refresh, mark the completed item `[x]` and add dated evidence to `Agents/COMPLETION_LOG.md`.
+- Keep deferred/blocked items `[ ]` with explicit notes. Maintain completion status only in `Agents/TASKS.md`.
+- If required inputs or reference facts block work, stop and ask the user before proceeding with dependent implementation; do not assume a missing answer.
+- Example: implementing signup screens does not complete Apple login until the signed provider flow and session tests also pass.
