@@ -68,3 +68,13 @@ The app, Xcode project and scheme are named **FlowState**. The original bundle i
 `dev.focusapp.scaffold` and SwiftData configuration key `FocusApp` are intentionally stable so this
 rename preserves the existing sandbox, preferences and saved tuning. The `FocusDomain`,
 `FocusPersistence` and `FocusAudio` packages describe their responsibilities and retain their names.
+
+## Agent workflow and planned authentication
+
+Read [project rules](AGENTS.md) and the [full agent checklist](Agents/TASKS.md) before implementation.
+Agents check Graphify before each implementation and refresh it after each implementation; the
+initial project graph is still pending. [Agent workflow](Agents/README.md) documents the process.
+
+Apple, Google and email accounts through Supabase Auth are planned in Step 18 and are not yet
+implemented. See [authentication architecture/setup](docs/AUTHENTICATION.md) and `.env.example`
+for the required public configuration and unresolved product decisions.

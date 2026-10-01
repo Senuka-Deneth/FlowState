@@ -8,6 +8,7 @@
 - Created root and Cursor rules requiring checklist discipline and Graphify checks before/updates after every implementation.
 - Graph availability check: `graphify-out/graph.json` absent. Initial graph creation remains pending before application implementation; no historic graph checks are asserted for imported completion marks.
 - This update changes planning/configuration templates and rules only; Swift source, signing identities, live backend configuration and existing application behavior are unchanged.
+- Validation passed: local Markdown links resolve, diagram fences balance, both Cursor rules have valid always-applied frontmatter and stay under 50 lines, Steps 1–18 and all 18 exit gates are present, and plan Section 11 links to a single authoritative checklist. Checklist totals: 82 tasks, 11 checked (8 imported implementation marks plus 3 planning setup marks). Application tests were not rerun for these documentation-only changes.
 
 ## Future completion entry template
 

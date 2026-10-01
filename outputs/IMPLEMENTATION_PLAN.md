@@ -504,6 +504,7 @@ Suggested checkpoints: **A:** runnable timer and native shell; **B:** accepted a
 | Integration | One user action through UI/menu/shortcut/notification produces one consistent result |
 | Mac lifecycle | Sleep/wake, lock experiment, multiple displays/Spaces, relaunch, login item denied, output-device changes |
 | Permissions | Fresh install, opt-out, denial and revocation for each optional feature |
+| Authentication | Signed Apple/Google/email flows; verification/recovery; cancellation; validated callbacks; Keychain restore/expiry; two-user data isolation; protected deletion; real email delivery |
 | UI | VoiceOver, keyboard pad alternatives, reduced motion/transparency, light/dark, empty/error/long-title states |
 | Performance | Instruments Time Profiler, Allocations, energy metrics, audio continuity and repeated mode changes |
 | Sound quality | Extended listening across pad regions and complete scenario phases; reviewer notes and user acceptance |
