@@ -15,3 +15,16 @@ Config/*.local.xcconfig
 *.p8
 *.p12
 *.mobileprovision
+
+# Additional GitHub Xcode template exclusions
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+Carthage/Build/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
